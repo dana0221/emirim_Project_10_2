@@ -8,6 +8,19 @@
     android:padding="15dp"
     tools:context=".ResultActivity">
 
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="최다 투표 사진"/>
+
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal" />
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
